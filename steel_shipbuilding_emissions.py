@@ -48,10 +48,10 @@ sandblasting_factors = pd.DataFrame({
     "Surface Type": ["Precleaned", "Painted", "Oxidized"]*3,
     "Emission Factor (kg/kg sand)": [29, 27, 25, 68, 70, 26, 92, 91, 89]
 })
-coating_emission_factors = {"Conveyor Single Flow": 0.00694, "Conveyor Dip": 0.00694,
-    "Conveyor Single Spray": 0.0125, "Conveyor Two-Coat, Flow and Spray": 0.01944,
-    "Conveyor Two-Coat, Dip and Spray": 0.01944, "Conveyor Two-Coat, Spray": 0.025,
-    "Manual Two-Coat, Spray and Air Dry": 0.02494}
+coating_emission_factors = {"Conveyor Single Flow": 6.94, "Conveyor Dip": 6.94,
+    "Conveyor Single Spray": 12.5, "Conveyor Two-Coat, Flow and Spray": 19.44,
+    "Conveyor Two-Coat, Dip and Spray": 19.44, "Conveyor Two-Coat, Spray": 25,
+    "Manual Two-Coat, Spray and Air Dry": 24.94}
 engine_emission_factors = {"CO2": 84827, "CO": 183, "CH4": 104,
     "NOx": 270, "PM": 29, "SOx": 557, "NMVOC": 18}
 
