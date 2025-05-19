@@ -174,9 +174,9 @@ shop_test_factors_aux = {
 
 # Inputs
 num_main = st.number_input("Number of Main Engines:", 0, step=1)
-power_main = st.number_input("Power per Main Engine (kW):", 0.0, step=10.0)
+power_main = st.number_input("Maximum Continuous Rating of Main Engine (kW):", 0.0, step=10.0)
 num_aux = st.number_input("Number of Auxiliary Engines:", 0, step=1)
-power_aux = st.number_input("Power per Auxiliary Engine (kW):", 0.0, step=10.0)
+power_aux = st.number_input("Maximum Continuous Rating of Auxiliary Engine (kW):", 0.0, step=10.0)
 
 # Fuel rates per kW
 fuel_per_kw_main = 1.886
